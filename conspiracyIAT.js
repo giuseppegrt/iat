@@ -103,7 +103,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 
 			base_url : {//Where are your images at?
-				image : '/implicit/user/yba/pipexample/biat/images/'
+				image : 'https://giuseppegrt.github.io/iat/images/'
 			},
 
 			//nBlocks : 7, This is not-supported anymore. If you want a 5-block IAT, change blockSecondCombined_nTrials to 0.
