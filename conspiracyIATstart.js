@@ -29,7 +29,7 @@ define(['pipAPI', 'https://giuseppegrt.github.io/iat/conspiracyIAT.js'], functio
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
     		    {image : 'yf1.jpg'}, 
-    			{image : 'yf4.jpg'}, 
+    			{image : 'media_01.jpg'}, 
     			{image : 'yf5.jpg'}, 
     			{image : 'ym2.jpg'}, 
     			{image : 'ym3.jpg'}, 
@@ -38,8 +38,8 @@ define(['pipAPI', 'https://giuseppegrt.github.io/iat/conspiracyIAT.js'], functio
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 
-		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
+		base_url : {//images location
+			image : 'https://giuseppegrt.github.io/iat/images/'
 		} 
 	});
 });
