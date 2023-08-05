@@ -5,7 +5,7 @@ define(['pipAPI', 'https://giuseppegrt.github.io/iat/conspiracyIAT.js'], functio
 		category1 : {
 			name : 'Social media', //Will appear in the data.
 			title : {
-				media : {word : 'Black people'}, //Name of the category presented in the task.
+				media : {word : 'Social media'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -23,7 +23,7 @@ define(['pipAPI', 'https://giuseppegrt.github.io/iat/conspiracyIAT.js'], functio
 		category2 :	{
 			name : 'Traditional media', //Will appear in the data.
 			title : {
-				media : {word : 'White people'}, //Name of the category presented in the task.
+				media : {word : 'Traditional media'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
