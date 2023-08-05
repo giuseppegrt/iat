@@ -1,11 +1,5 @@
-//YBYB:Created from iat8.js, for Qualtrics
+//Conspiracy IAT for Qualtrics
 define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) {
-
-	/**
-	Created by: Yoav Bar-Anan (baranan@gmail.com). Modified by Elad
-	 * @param  {Object} options Options that replace the defaults...
-	 * @return {Object}         PIP script
-	**/
 
 	function iatExtension(options)
 	{
@@ -30,86 +24,86 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 			//When scoring, we will consider the compatible condition the pairing condition that requires response with one key to [category1,attribute1] and the other key to [category2,attribute2]
 			category1 : {
-				name : 'Black people', //Will appear in the data and in the default feedback message.
+				name : 'Social media', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'Black people'}, //Name of the category presented in the task.
+					media : {word : 'Social media'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Tyron'},
-					{word: 'Malik'},
-					{word: 'Terrell'},
-					{word: 'Jazmin'},
-					{word: 'Tiara'},
-					{word: 'Shanice'}
+					{word: 'Facebook'},
+					{word: 'Telegram'},
+					{word: 'Blog'},
+					{word: 'Podcast'},
+					{word: 'Groups'},
+					{word: 'Social'}
 				],
 				//Stimulus css (style)
 				stimulusCss : {color:'#336600','font-size':'2.3em'}
 			},
 			category2 :	{
-				name : 'White people', //Will appear in the data and in the default feedback message.
+				name : 'Traditional media', //Will appear in the data and in the default feedback message.
 				title : {
-					media : {word : 'White people'}, //Name of the category presented in the task.
+					media : {word : 'Traditional media'}, //Name of the category presented in the task.
 					css : {color:'#336600','font-size':'1.8em'}, //Style of the category title.
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'Jake'},
-					{word: 'Connor'},
-					{word: 'Bradley'},
-					{word: 'Allison'},
-					{word: 'Emma'},
-					{word: 'Emily'}
+					{word: 'News'},
+					{word: 'Radio'},
+					{word: 'TV'},
+					{word: 'NewsApps'},
+					{word: 'NewsWebsite'},
+					{word: 'Journal'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#336600','font-size':'2.3em'}
 			},
 			attribute1 :
 			{
-				name : 'Bad words',
+				name : 'Disinformation',
 				title : {
-					media : {word : 'Bad words'},
+					media : {word : 'Disinformation'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'awful'},
-					{word: 'failure'},
-					{word: 'agony'},
-					{word: 'hurt'},
-					{word: 'horrible'},
-					{word: 'terrible'},
-					{word: 'nasty'},
-					{word: 'evil'}
+					{word: 'lies'},
+					{word: 'manipulation'},
+					{word: 'propaganda'},
+					{word: 'misinformation'},
+					{word: 'control'},
+					{word: 'cover-up'},
+					{word: 'hoax'},
+					{word: 'fabrication'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
 			attribute2 :
 			{
-				name : 'Good words',
+				name : 'Information',
 				title : {
 					media : {word : 'Good words'},
 					css : {color:'#0000FF','font-size':'1.8em'},
 					height : 4 //Used to position the "Or" in the combined block.
 				},
 				stimulusMedia : [ //Stimuli content as PIP's media objects
-					{word: 'laughter'},
-					{word: 'happy'},
-					{word: 'glorious'},
-					{word: 'joy'},
-					{word: 'wonderful'},
-					{word: 'peace'},
-					{word: 'pleasure'},
-					{word: 'love'}
+					{word: 'knowledge'},
+					{word: 'facts'},
+					{word: 'evidence'},
+					{word: 'truth'},
+					{word: 'clarity'},
+					{word: 'transparency'},
+					{word: 'credibility'},
+					{word: 'authenticity'}
 				],
 				//Stimulus css
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
 
 			base_url : {//Where are your images at?
-				image : '/implicit/user/yba/pipexample/biat/images/'
+				image : 'https://giuseppegrt.github.io/iat/images/'
 			},
 
 			//nBlocks : 7, This is not-supported anymore. If you want a 5-block IAT, change blockSecondCombined_nTrials to 0.
