@@ -3,9 +3,9 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 
 	return iatExtension({
 		category1 : {
-			name : 'Social media', //Will appear in the data.
+			name : 'Black people', //Will appear in the data.
 			title : {
-				media : {word : 'Social media'}, //Name of the category presented in the task.
+				media : {word : 'Black people'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -21,9 +21,9 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Traditional media', //Will appear in the data.
+			name : 'White people', //Will appear in the data.
 			title : {
-				media : {word : 'Traditional media'}, //Name of the category presented in the task.
+				media : {word : 'White people'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
