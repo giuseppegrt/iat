@@ -3,25 +3,25 @@ define(['pipAPI', 'https://giuseppegrt.github.io/iat/conspiracyIAT.js'], functio
 
 	return iatExtension({
 		category1 : {
-			name : 'Black people', //Will appear in the data.
+			name : 'Social media', //Will appear in the data.
 			title : {
 				media : {word : 'Black people'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'black1.jpg'}, 
-    			{image : 'black2.jpg'}, 
-    			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-    			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
+    		    {image : 'social_01.jpg'}, 
+    			{image : 'social_02.jpg'}, 
+    			{image : 'social_03.jpg'}, 
+    			{image : 'social_04.jpg'}, 
+    			{image : 'social_05.jpgg'}, 
+    			{image : 'social_06.jpg'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'White people', //Will appear in the data.
+			name : 'Traditional media', //Will appear in the data.
 			title : {
 				media : {word : 'White people'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
