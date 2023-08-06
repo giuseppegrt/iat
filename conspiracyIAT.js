@@ -35,7 +35,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
     			{image : 'social_02.jpg'}, 
     			{image : 'social_03.jpg'}, 
     			{image : 'social_04.jpg'}, 
-    			{image : 'social_05.jpgg'}, 
+    			{image : 'social_05.jpg'}, 
     			{image : 'social_06.jpg'}
 			], 
 			//Stimulus css (style)
