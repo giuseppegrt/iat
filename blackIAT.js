@@ -10,12 +10,12 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'https://giuseppegrt.github.io/iat/img/black1.jpg'}, 
-    			{image : 'https://giuseppegrt.github.io/iat/img/black2.jpg'}, 
-    			{image : 'https://giuseppegrt.github.io/iat/img/black3.jpg'}, 
-    			{image : 'https://giuseppegrt.github.io/iat/img/black4.jpg'}, 
-    			{image : 'https://giuseppegrt.github.io/iat/img/black5.jpg'}, 
-    			{image : 'https://giuseppegrt.github.io/iat/img/black6.jpg'}
+    		    {image : 'black1.jpg'}, 
+    			{image : 'black2.jpg'}, 
+    			{image : 'black3.jpg'}, 
+    			{image : 'black4.jpg'}, 
+    			{image : 'black5.jpg'}, 
+    			{image : 'black6.jpg'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
@@ -28,12 +28,12 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'https://giuseppegrt.github.io/iat/img/yf1.jpg'}, 
-    			{image : 'https://giuseppegrt.github.io/iat/img/yf4.jpg'}, 
-    			{image : 'https://giuseppegrt.github.io/iat/img/yf5.jpg'}, 
-    			{image : 'https://giuseppegrt.github.io/iat/img/ym2.jpg'}, 
-    			{image : 'https://giuseppegrt.github.io/iat/img/ym3.jpg'}, 
-    			{image : 'https://giuseppegrt.github.io/iat/img/ym5.jpg'}			], 
+    		    {image : 'yf1.jpg'}, 
+    			{image : 'yf4.jpg'}, 
+    			{image : 'yf5.jpg'}, 
+    			{image : 'ym2.jpg'}, 
+    			{image : 'ym3.jpg'}, 
+    			{image : 'ym5.jpg'}			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
