@@ -28,18 +28,18 @@ define(['pipAPI', 'https://giuseppegrt.github.io/iat/conspiracyIAT.js'], functio
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'media_01.jpg'}, 
-    			{image : 'media_02.jpg'}, 
-    			{image : 'media_03.jpg'}, 
-    			{image : 'media_04.jpg'}, 
-    			{image : 'media_05.jpg'}, 
-    			{image : 'media_06.jpg'}			], 
+    		    {image : 'media1.jpg'}, 
+    			{image : 'media2.jpg'}, 
+    			{image : 'media3.jpg'}, 
+    			{image : 'media4.jpg'}, 
+    			{image : 'media5.jpg'}, 
+    			{image : 'media6.jpg'}			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 
 		base_url : {//images location
-			image : 'https://qualtricsiat.000webhostapp.com/image/'
+			image : 'https://qualtricsiat.000webhostapp.com/images/'
 		} 
 	});
 });
