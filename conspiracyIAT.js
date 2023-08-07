@@ -101,7 +101,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			},
 
 			base_url : {//Where are your images at?
-				image : 'https://qualtricsiat.000webhostapp.com/images/'
+				image : 'https://qualtricsiat.000webhostapp.com/image/'
 			},
 			
 			////In each block, we can include a number of mini-blocks, to reduce repetition of same group/response.
