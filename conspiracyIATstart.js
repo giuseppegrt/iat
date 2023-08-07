@@ -39,7 +39,7 @@ define(['pipAPI', 'https://giuseppegrt.github.io/iat/conspiracyIAT.js'], functio
 		},	
 
 		base_url : {//images location
-			image : 'https://qualtricsiat.000webhostapp.com/images/'
+			image : 'https://qualtricsiat.000webhostapp.com/image/'
 		} 
 	});
 });
