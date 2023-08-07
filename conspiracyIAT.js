@@ -7,9 +7,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 		var scorer = new Scorer();
 		var piCurrent = API.getCurrent();
 
-		//Here we set the settings of our task. 
-		//Read the comments to learn what each parameters means.
-		//You can also do that from the outside, with a dedicated jsp file.
+		//Task setting 
 		var iatObj =
 		{
 			isTouch:false, //Set whether the task is on a touch device.
@@ -105,8 +103,6 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			base_url : {//Where are your images at?
 				image : 'https://qualtricsiat.000webhostapp.com/images/'
 			},
-
-			//nBlocks : 7, This is not-supported anymore. If you want a 5-block IAT, change blockSecondCombined_nTrials to 0.
 			
 			////In each block, we can include a number of mini-blocks, to reduce repetition of same group/response.
 			////If you set the number of trials in any block to 0, that block will be skipped.
