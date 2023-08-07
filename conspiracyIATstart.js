@@ -10,12 +10,12 @@ define(['pipAPI', 'https://giuseppegrt.github.io/iat/conspiracyIAT.js'], functio
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'social_01.jpg'}, 
-    			{image : 'social_02.jpg'}, 
-    			{image : 'social_03.jpg'}, 
-    			{image : 'social_04.jpg'}, 
-    			{image : 'social_05.jpg'}, 
-    			{image : 'social_06.jpg'}
+    		    {image : 'social1.jpg'}, 
+    			{image : 'social2.jpg'}, 
+    			{image : 'social3.jpg'}, 
+    			{image : 'social4.jpg'}, 
+    			{image : 'social5.jpg'}, 
+    			{image : 'social6.jpg'}
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
