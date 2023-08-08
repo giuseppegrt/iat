@@ -21,7 +21,7 @@ Qualtrics.SurveyEngine.addOnload(function () {
     // Function activated when MinnoJS is loaded
     function onLoad() {
         // Run the study
-        minnoJS(canvas, 'https://giuseppegrt.github.io/iat/IATmedia_start.js');
+        minnoJS(canvas, 'https://giuseppegrt.github.io/iat/ADDHERETHESTUDY.js');
 
         // Function to inject the results into the question
         minnoJS.logger = function (value) {
