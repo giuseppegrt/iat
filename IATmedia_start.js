@@ -1,45 +1,67 @@
-define(['pipAPI', 'https://giuseppegrt.github.io/iat/IATmedia.js'], function(APIConstructor, iatExtension){
-    var API = new APIConstructor();
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js'], function(APIConstructor, stiatExtension){
+	
+	var API = new APIConstructor();
+		  return stiatExtension({
+		  category : { 
+		    name : 'Black people', //Will appear in the data.
+		    title : {
+		      media : {word : 'Black people'}, //Name of the category presented in the task.
+		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+		      height : 7 //Used to position the "Or" in the combined block.
+		    }, 
+		    media : [ //Stimuli content as PIP's media objects
+    		    	{image : 'black1.jpg'}, 
+    			{image : 'black2.jpg'}, 
+    			{image : 'black3.jpg'}, 
+    			{image : 'black4.jpg'}, 
+    			{image : 'black5.jpg'}, 
+    			{image : 'black6.jpg'}
+		    ], 
+		    //Stimulus css (style)
+		    css : {color:'#31b404','font-size':'3em'}
+		  },	
 
-	return iatExtension({
-		category1 : {
-			name : 'Social media', //Will appear in the data.
+  		attribute1 : 
+			{
+			name : 'Unpleasant', //Attribute label
 			title : {
-				media : {word : 'Social media'}, //Name of the category presented in the task.
-				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
-				height : 4 //Used to position the "Or" in the combined block.
+				media : {word : 'Negative'}, //Name of the category presented in the task.
+				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+				height : 7 //Used to position the "Or" in the combined block.
 			}, 
-			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'social1.jpg'}, 
-    			{image : 'social2.jpg'}, 
-    			{image : 'social3.jpg'}, 
-    			{image : 'social4.jpg'}, 
-    			{image : 'social5.jpg'}, 
-    			{image : 'social6.jpg'}
+			media : [ //Stimuli
+				{word: 'Bomb'},
+				{word: 'Abuse'},
+				{word: 'Sadness'},
+				{word: 'Pain'},
+				{word: 'Poison'},
+				{word: 'Grief'}
 			], 
-			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		},	
-		category2 :	{
-			name : 'Traditional media', //Will appear in the data.
+			//Can change color and size of the targets here.
+			css : {color:'#31b404','font-size':'3em'}
+			},
+		attribute2 : 
+			{
+			name : 'Pleasant', //Attribute label
 			title : {
-				media : {word : 'Traditional media'}, //Name of the category presented in the task.
-				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
-				height : 4 //Used to position the "Or" in the combined block.
+				media : {word : 'Positive'}, //Name of the category presented in the task.
+				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
+				height : 7 //Used to position the "Or" in the combined block.
 			}, 
-			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'media1.jpg'}, 
-    			{image : 'media2.jpg'}, 
-    			{image : 'media3.jpg'}, 
-    			{image : 'media4.jpg'}, 
-    			{image : 'media5.jpg'}, 
-    			{image : 'media6.jpg'}			], 
-			//Stimulus css
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		},	
+			media : [ //Stimuli
+				{word: 'Paradise'},
+				{word: 'Pleasure'},
+				{word: 'Cheer'},
+				{word: 'Wonderful'},
+				{word: 'Splendid'},
+				{word: 'Love'}
+			], 
+			//Can change color and size of the targets here.
+			css : {color:'#31b404','font-size':'3em'}
+			},
 
-		base_url : {//images location
-			image : 'https://qualtricsiat.000webhostapp.com/images/'
-		} 
-	});
-});
+  base_url : {//Where are your images at?
+    image : 'https://baranan.github.io/minno-tasks/images/'
+  }}
+  );
+  });
