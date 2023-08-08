@@ -1,4 +1,4 @@
-//Conspiracy IAT for Qualtrics
+//Media type IAT for Qualtrics
 define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) {
 
 	function iatExtension(options)
